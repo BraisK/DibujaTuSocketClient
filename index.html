@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <form id="form">
+    <label for="ip">IP:</label>
+    <input id="ip" name="ip" value="localhost">
+    <label for="port">Puerto:</label>
+    <input id="port" name="port" value="3000">
+
+    <select id="color">
+      <option value="red">Rojo</option>
+      <option value="blue">Azul</option>
+      <option value="black">Negro</option>
+      <option value="purple">Purpura</option>
+      <option value="green">Verde</option>
+      <option value="white">Borrar</option>
+    </select>
+
+    <button type="submit">Conectar</button>
+  </form>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
